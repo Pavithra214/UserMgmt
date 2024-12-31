@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Forgot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="QuestAndAns.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Registration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Signup.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\City.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Country.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\ListUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Skills.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\State.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\User.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Forgot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="QuestAndAns.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Registration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Signup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\City.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Country.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\ListUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Skills.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\State.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\User.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

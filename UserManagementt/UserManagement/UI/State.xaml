@@ -1,0 +1,19 @@
+﻿<Page x:Class="UserManagement.UI.State"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UserManagement.UI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="State">
+
+    <StackPanel Background="BurlyWood">
+        <Label Content="STATE" HorizontalAlignment="Center"></Label>
+        <Label Content="Select your Country"  Background="LavenderBlush"></Label>
+        <ComboBox x:Name="cmbcountry" SelectionChanged="cmbcountry_SelectionChanged"></ComboBox>
+        <TextBox x:Name="txtstate" AcceptsReturn="True" Height="300"></TextBox>
+        <Button Content="Save" x:Name="btnsave" Click="btnsave_Click" Background="#18cc60"></Button>
+        <Button Content="Preview" x:Name="btnpreview" Click="btnpreview_Click" Background="#18cc60"></Button>
+    </StackPanel>
+</Page>

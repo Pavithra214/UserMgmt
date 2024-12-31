@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\UserManagementt\\UserManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\ui\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:ui\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\forgot.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:forgot.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\ui\\user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:ui\\user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\ui\\city.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:ui\\city.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\ui\\skills.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:ui\\skills.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\ui\\state.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:ui\\state.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|d:\\c#\\usermanagementt\\usermanagement\\ui\\country.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94B4559-1793-4689-B16F-B718D7716C75}|UserManagement.csproj|solutionrelative:ui\\country.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registration.xaml",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\Registration.xaml",
+              "RelativeDocumentMoniker": "Registration.xaml",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\Registration.xaml",
+              "RelativeToolTip": "Registration.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T08:07:40.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Signup.xaml",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\Signup.xaml",
+              "RelativeDocumentMoniker": "Signup.xaml",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\Signup.xaml",
+              "RelativeToolTip": "Signup.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T13:02:54.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T14:32:39.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\UI\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Home.xaml.cs",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\UI\\Home.xaml.cs",
+              "RelativeToolTip": "UI\\Home.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:16:13.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Forgot.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\Forgot.xaml.cs",
+              "RelativeDocumentMoniker": "Forgot.xaml.cs",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\Forgot.xaml.cs",
+              "RelativeToolTip": "Forgot.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:15:59.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:04:27.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Registration.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\Registration.xaml.cs",
+              "RelativeDocumentMoniker": "Registration.xaml.cs",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\Registration.xaml.cs",
+              "RelativeToolTip": "Registration.xaml.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAQwDQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:37:42.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Signup.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\Signup.xaml.cs",
+              "RelativeDocumentMoniker": "Signup.xaml.cs",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\Signup.xaml.cs",
+              "RelativeToolTip": "Signup.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:37:36.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "City.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\UI\\City.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\City.xaml.cs",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\UI\\City.xaml.cs",
+              "RelativeToolTip": "UI\\City.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:33:03.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\UI\\User.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\User.xaml.cs",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\UI\\User.xaml.cs",
+              "RelativeToolTip": "UI\\User.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:32:58.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Skills.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\UI\\Skills.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Skills.xaml.cs",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\UI\\Skills.xaml.cs",
+              "RelativeToolTip": "UI\\Skills.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:31:02.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "State.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\UI\\State.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\State.xaml.cs",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\UI\\State.xaml.cs",
+              "RelativeToolTip": "UI\\State.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:19:34.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Country.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\UserManagementt\\UserManagement\\UI\\Country.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Country.xaml.cs",
+              "ToolTip": "D:\\C#\\UserManagementt\\UserManagement\\UI\\Country.xaml.cs",
+              "RelativeToolTip": "UI\\Country.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:19:21.202Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

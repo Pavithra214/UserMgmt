@@ -1,0 +1,50 @@
+﻿<Window x:Class="UserManagement.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        
+        xmlns:local="clr-namespace:UserManagement"
+        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top" HorizontalAlignment="Center" Background="Orange" FontWeight="Medium">
+            <Label Content="Welcome"></Label>
+            <Label x:Name="lbluser"></Label>
+        </ToolBar>
+        <Menu DockPanel.Dock="Top" Background="Green" Foreground="White">
+            
+         <MenuItem Header="Settings"></MenuItem>
+         <MenuItem Header="Master Data">
+                <MenuItem Header="Skills" Click="Master_Click" Foreground="Black"></MenuItem>
+                <MenuItem Header="Country" Click="Master_Click" Foreground="Black"></MenuItem>
+                <MenuItem Header="State" Click="Master_Click" Foreground="Black"></MenuItem>
+                <MenuItem Header="City" Click="Master_Click" Foreground="Black"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Home" Click="Home_Click"></MenuItem>
+            <MenuItem Header="User" Click="User_Click"></MenuItem>
+            <MenuItem Header="List" Click="List_Click"></MenuItem>
+        </Menu>
+        <StatusBar DockPanel.Dock="Bottom" Background="Gray" Height="50">
+            <StatusBarItem x:Name="sbdate"></StatusBarItem>
+        </StatusBar>
+        <Frame x:Name="framename" NavigationUIVisibility="Hidden" Background="Beige"></Frame>
+    </DockPanel>
+</Window>
+<!--<StackPanel>
+        
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="btnhome" Background="#8b32a8" Foreground="White" Click="btnhome_Click" Content="Home" Height="50" Width="80" Margin="5"></Button>
+            <Button x:Name="btnuser" Background="#75a832" Foreground="White" Click="btnuser_Click" Content="User" Height="50" Width="80" Margin="5"></Button>
+            <Button x:Name="btnlist" Background="#ed9595" Foreground="White" Click="btnlist_Click" Content="List User" Height="50" Width="80" Margin="5"></Button>
+           
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Back" Margin="80,0,0,0" Height="20" Width="70" x:Name="backbtn" Click="backbtn_Click" Background="DodgerBlue"></Button>
+            <Button Content="Forward" Margin="5" Height="20" Width="70" x:Name="frwdbtn" Click="frwdbtn_Click" Background="DodgerBlue"></Button>
+        </StackPanel>
+        <Frame x:Name="framename" NavigationUIVisibility="Hidden"></Frame>
+    </StackPanel>-->
+

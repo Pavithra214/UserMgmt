@@ -1,0 +1,142 @@
+﻿<Window x:Class="UserManagement.Quest_Ans"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserManagement"
+        mc:Ignorable="d"
+        Title="QuestAndAns" Height="800" Width="800">
+    <ScrollViewer>
+        <Grid>
+       
+            <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+            </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        <Label Content="C# Quiz" FontSize="20" FontWeight="Black" Grid.Row="0" Grid.ColumnSpan="15" HorizontalAlignment="Center"></Label>
+        <Label Content="Score: " Width="Auto" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Right" Foreground="DarkBlue" FontWeight="Black"></Label>
+        <Label Content="0" Grid.Row="1" Grid.Column="4" x:Name="lblscr" HorizontalAlignment="Left" FontWeight="Bold"></Label>
+
+            <Label Content="Q1. Which of the following are value types in C#?" FontWeight="Medium" Grid.Row="3" Grid.ColumnSpan="15" FontFamily="Black"></Label>
+            <StackPanel Grid.Row="4" Grid.ColumnSpan="12" Orientation="Horizontal">
+                <RadioButton Content="Int32   " Tag="N"  Grid.Column="0" Checked="CommonRadioButton_Checked"></RadioButton>
+        <RadioButton Content="Double   " Tag="N"  Grid.Column="1" Checked="CommonRadioButton_Checked"></RadioButton>
+        <RadioButton Content="Decimal   " Tag="N"  Grid.Column="2" Checked="CommonRadioButton_Checked"></RadioButton>
+        <RadioButton Content="All of the above" Tag="4"  Grid.Column="3" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+            </StackPanel>
+        
+            <Label Content="Q2. Which of the following is a reference type in C#?" FontWeight="Medium" Grid.Row="5" Grid.ColumnSpan="12"></Label>
+            <StackPanel Grid.Row="6" Grid.ColumnSpan="12" Orientation="Horizontal">
+                <RadioButton Content="String   " Tag="N"  Grid.Column="0" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="Long  " Tag="N"  Grid.Column="1" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="Boolean   " Tag="N"  Grid.Column="2" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="None of the above" Tag="Y"  Grid.Column="3" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+            </StackPanel>
+        
+            <Label Content="Q3. Why strings are of reference type in C#?" FontWeight="Medium" Grid.Row="7" Grid.ColumnSpan="12"></Label>
+            <StackPanel Grid.Row="8" Grid.ColumnSpan="12" Grid.RowSpan="4">
+                <RadioButton Content="To reduce size of a string   " Tag="N"  Grid.Column="0" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="To overcome the problem of stack overflow  " Tag="N"  Grid.ColumnSpan="5" Grid.Column="0" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="To create a string on stack   " Tag="N"  Grid.Column="0" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="None of the above" Tag="Y"  Grid.Column="0" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+            </StackPanel>
+        
+            <Label Content="Q4. All arrays starts with _________ index." FontWeight="Medium" Grid.Row="11" Grid.ColumnSpan="12"></Label>
+            <StackPanel Grid.Row="12" Grid.ColumnSpan="12" Orientation="Horizontal">
+                <RadioButton Content="1" Tag="N"  Grid.Column="0" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="0" Tag="Y" Grid.Column="1"></RadioButton>
+                <RadioButton Content="-1" Tag="N" Grid.Column="2"></RadioButton>
+                <RadioButton Content="None of the above" Tag="Y" Grid.Column="3" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+            </StackPanel>
+
+            
+                <Label Content="Q5. Which property can be used to find the length of the string?" FontWeight="Medium" Grid.Row="13" Grid.ColumnSpan="12"></Label>
+            <StackPanel Grid.Row="14" Grid.ColumnSpan="12" Orientation="Horizontal">
+                <RadioButton Content="getLength()" Tag="N"  Grid.Column="0" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="length" Tag="N"  Grid.Column="1" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="Length" Tag="N"  Grid.Column="2" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="length()" Tag="Y"  Grid.Column="3" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+            </StackPanel>
+        
+            <Label Content="Q6. Which operator is used to add together two values?" FontWeight="Medium" Grid.Row="15" Grid.ColumnSpan="16"></Label>
+            <StackPanel Grid.Row="16" Grid.ColumnSpan="17" Orientation="Horizontal">
+                <RadioButton Content="*" Tag="N"  Grid.Column="0" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="+" Tag="N"  Grid.Column="1" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="-" Tag="N"  Grid.Column="2" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="/" Tag="Y"  Grid.Column="3" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+            </StackPanel>
+        
+            <Label Content="Q7. To declare an array in C#,define the variable type with." FontWeight="Medium" Grid.Row="17" Grid.ColumnSpan="12"></Label>
+            <StackPanel Grid.Row="18" Grid.ColumnSpan="17" Orientation="Horizontal">
+                <RadioButton Content="{}" Tag="N"  Grid.Column="0" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="()" Tag="N"  Grid.Column="1" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="[]" Tag="N"  Grid.Column="2" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="&lt;>" Tag="Y"  Grid.Column="3" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+            </StackPanel>
+        
+            <Label Content="Q8. What is the name of the 'special' class that represents a group of constants?" FontWeight="Medium" Grid.Row="19" Grid.ColumnSpan="12"></Label>
+            <StackPanel Grid.Row="20" Grid.ColumnSpan="17" Orientation="Horizontal">
+                <RadioButton Content="const" Tag="N" Grid.Row="20" Grid.Column="0" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="enum" Tag="N" Grid.Row="20" Grid.Column="1" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="void" Tag="N" Grid.Row="20" Grid.Column="2" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="special" Tag="Y" Grid.Row="20" Grid.Column="3" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+            </StackPanel>
+        
+            <Label Content="Q9. Which access modifier makes the code only accessible within the same class?" FontWeight="Medium" Grid.Row="21" Grid.ColumnSpan="12"></Label>
+            <StackPanel Grid.Row="22" Grid.ColumnSpan="17" Orientation="Horizontal">
+                <RadioButton Content="private" Tag="N" Grid.Row="22" Grid.Column="0" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="final" Tag="N" Grid.Row="22" Grid.Column="1" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="public" Tag="N" Grid.Row="22" Grid.Column="2" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="abstract" Tag="Y" Grid.Row="22" Grid.Column="3" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+            </StackPanel>
+        
+            <Label Content="Q10. Which keyword is used to return a value inside a method?" FontWeight="Medium" Grid.Row="23" Grid.ColumnSpan="12"></Label>
+            <StackPanel Grid.Row="24" Grid.ColumnSpan="17" Orientation="Horizontal">
+                <RadioButton Content="break" Tag="N" Grid.Row="24" Grid.Column="0" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="return" Tag="N" Grid.Row="24" Grid.Column="1" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="void" Tag="N" Grid.Row="24" Grid.Column="2" Checked="CommonRadioButton_Checked"></RadioButton>
+                <RadioButton Content="get" Tag="Y" Grid.Row="24" Grid.Column="3" Grid.ColumnSpan="5" Checked="CommonRadioButton_Checked"></RadioButton>
+            </StackPanel>
+            <Button Content="Start" Background="Green" x:Name="btnstart" Click="btnstart_Click" Grid.Row="2" Grid.Column="3" Margin="0,0,0,0" Width="50" HorizontalAlignment="Left"></Button>
+            <Button Content="Stop" Background="Red" x:Name="btnstop" Click="btnstop_Click" Grid.Row="2" Grid.Column="4" Margin="0,0,0,0" Width="50" HorizontalAlignment="Right"></Button>
+       
+    </Grid>
+    </ScrollViewer>
+</Window>
